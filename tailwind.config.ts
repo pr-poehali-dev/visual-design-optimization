@@ -19,6 +19,8 @@ export default {
 		},
 		extend: {
 			colors: {
+				'mc-green': '#4ade80',
+				'mc-dark': '#0a1f0a',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
