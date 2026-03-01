@@ -88,6 +88,7 @@ export default function ShopSection({ isActive }: ShopSectionProps) {
               <Button
                 size="sm"
                 className="bg-mc-green text-black hover:bg-green-400 font-bold transition-colors"
+                onClick={() => window.open(`https://t.me/MineAKULAbot?start=${encodeURIComponent(item.name)}`, '_blank')}
               >
                 Купить
               </Button>
