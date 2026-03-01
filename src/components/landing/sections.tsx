@@ -4,7 +4,7 @@ export const sections = [
   {
     id: 'hero',
     subtitle: <Badge variant="outline" className="text-mc-green border-mc-green">Магазин открыт</Badge>,
-    title: "Прокачай свой игровой опыт.",
+    title: "Прокачай свои навыки.",
     showButton: true,
     buttonText: 'Перейти в магазин'
   },
